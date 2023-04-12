@@ -39,6 +39,7 @@ M.lspkind = {
 	Calendar = ' ',
 	Watch = ' ',
 	Package = ' ',
+	Copilot = ' ',
 }
 
 M.separators = {
@@ -81,7 +82,10 @@ M.git = {
 	remove = '',
 	modifier = '',
 	check = '',
+	check_circle = '',
 	unmerged = '',
+	ignored = '◌',
+	igonred_mod = '',
 }
 
 M.others = {

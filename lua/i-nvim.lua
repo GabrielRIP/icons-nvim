@@ -61,9 +61,12 @@ M.separators = {
 
 	line = {
 		favorite = '|',
-		one_line = '┃',
+		LineMiddle = '│',
+		boldLineMiddle = '┃',
 		two_line = '║',
 		big_line = '█',
+		LineLeft = '▏',
+		BoldLineLeft = '▎',
 	},
 }
 

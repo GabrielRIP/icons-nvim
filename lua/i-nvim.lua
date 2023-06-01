@@ -40,6 +40,7 @@ M.lspkind = {
 	Watch = ' ',
 	Package = ' ',
 	Copilot = ' ',
+	Codeium = ' ',
 }
 
 M.separators = {
@@ -60,39 +61,63 @@ M.separators = {
 	},
 
 	line = {
-		favorite = '|',
-		LineMiddle = '│',
-		boldLineMiddle = '┃',
-		two_line = '║',
-		big_line = '█',
-		LineLeft = '▏',
-		BoldLineLeft = '▎',
+		H_Favorite = '|',
+		H_LineMiddle = '│',
+		H_LineLeft = '▎',
+		H_BoldLineMiddle = '┃',
+		H_TwoLine = '║',
+		H_BigLine = '█',
+		H_LineLightLeft = '▏',
+		H_LineLightRight = '▕',
+		V_LineTop = '▔',
+		V_LineMiddle = '─',
+		V_LineDown = '▁',
+	},
+
+	corners = {
+		curve_top_left = '╭',
+		curve_top_right = '╮',
+		curve_bottom_left = '╰',
+		curve_bottom_right = '╯',
 	},
 }
 
-M.others = { curve = '╰', close = '', pinned = '車' }
-
-M.diagnostic = {
-	error = '',
-	hint = '',
-	info = '',
-	warning = '',
+M.git = {
+	branch = ' ',
+	add = ' ',
+	remove = ' ',
+	modifier = ' ',
+	check = ' ',
+	unmerged = ' ',
+	ignored = '◌ ',
+	igonred_mod = ' ',
 }
 
-M.git = {
-	branch = '',
-	add = '',
-	remove = '',
-	modifier = '',
-	check = '',
-	check_circle = '',
-	unmerged = '',
-	ignored = '◌',
-	igonred_mod = '',
+M.diagnostic = {
+	error = ' ',
+	hint = ' ',
+	info = ' ',
+	warning = ' ',
 }
 
 M.others = {
-	so = { fedora = ' ' },
+	os = {
+		fedora = ' ',
+		debian = ' ',
+		arch = ' ',
+		ubuntu = ' ',
+		manjaro = ' ',
+		mint = ' ',
+		pop_os = ' ',
+		zorin = ' ',
+		cereus = '󰶵 ',
+		linux = ' ',
+	},
+
+	mix = {
+		close = '',
+		pinned = '車',
+	},
 }
 
 return M

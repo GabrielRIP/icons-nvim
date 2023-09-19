@@ -85,40 +85,42 @@ M.git = {
 }
 
 M.diagnostic = {
-   error = ' ',
-   hint = '󰋗 ',
-   info = ' ',
-   warning = ' ',
+   error = '',
+   warning = '',
+   hint = '󰋗',
+   info = '',
 }
 
 M.others = {
    os = {
-      fedora = ' ',
-      debian = ' ',
-      arch = ' ',
-      ubuntu = ' ',
-      manjaro = ' ',
-      mint = ' ',
-      pop_os = ' ',
-      zorin = ' ',
-      cereus = '󰶵 ',
-      linux = ' ',
+      fedora = '',
+      debian = '',
+      arch = '',
+      ubuntu = '',
+      manjaro = '',
+      mint = '',
+      pop_os = '',
+      zorin = '',
+      cereus = '󰶵',
+      linux = '',
    },
 
    mix = {
       close = '',
       pinned = '車',
       directory = '󰉋',
+      file = '󰈙',
       Table = '',
       Object = '',
       Tag = '',
       Array = '[]',
-      Boolean = ' ',
-      Number = ' ',
-      Null = '󰟢 ',
-      String = ' ',
+      Boolean = '',
+      Number = '',
+      Null = '󰟢',
+      String = '',
       Calendar = '',
-      Package = ' ',
+      Package = '',
+      lsp = '',
    },
 }
 

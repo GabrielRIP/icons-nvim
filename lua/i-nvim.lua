@@ -72,13 +72,13 @@ M.separators = {
 -- Usan: nvim-tree, statusStatic, barbar
 M.git = {
    branch = '',
-   add = '',
-   remove = '',
-   modifier = '',
-   check = '',
+   add    = "",
+   remove  = "",
+   modifier = "",
+   check = '',
    unmerged = '',
-   ignored = '◌',
-   igonred_mod = '',
+   ignored = '󱥸',
+   igonred_mod = '',
 
    icon_branch = '',
    github = '',

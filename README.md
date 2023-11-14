@@ -1,10 +1,10 @@
 <h1 align="center">Icons custom para Nvim</h1>
 
-<p align="center">Otro repo más, pues si. Pero este trade de iconos</p>
+<p align="center">Otro repo más, pues si. Pero este trata de iconos</p>
 
 ## Uso
 
-para [packer](https://github.com/wbthomason/packer.nvim):
+Para [packer](https://github.com/wbthomason/packer.nvim):
 
 ```lua
   use {'grChad/icons-nvim'}

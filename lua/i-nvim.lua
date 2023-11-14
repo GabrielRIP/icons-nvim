@@ -87,7 +87,7 @@ M.git = {
 M.diagnostic = {
    error = '',
    warning = '',
-   hint = '󰋗',
+   hint = '',
    info = '',
 }
 
